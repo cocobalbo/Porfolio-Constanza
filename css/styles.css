@@ -1,0 +1,36 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.icons{
+    width: 25px;
+    padding: 0 10px 0 10px ;
+}
+
+.border{
+    border:solid 2px blueviolet;
+    margin: 10px 0 10px 0;
+    padding: 5px;
+}
+
+img{
+    width: 300px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+footer{
+    text-align: center;
+}
+
+.background{
+    background-image: url('https://assets-global.website-files.com/64949e4863d96e26a1da8386/64b9451865a683fd39bccfa1_5f6e93d250a6d04f4eae9f02_Backgrounds-WFU-thumbnail-(size).jpeg');
+    background-size: cover;
+}
