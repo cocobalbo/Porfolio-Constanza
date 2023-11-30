@@ -1,5 +1,9 @@
 *{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.bebas{
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .icons{
@@ -33,4 +37,31 @@ footer{
 .background{
     background-image: url('https://assets-global.website-files.com/64949e4863d96e26a1da8386/64b9451865a683fd39bccfa1_5f6e93d250a6d04f4eae9f02_Backgrounds-WFU-thumbnail-(size).jpeg');
     background-size: cover;
+}
+
+.bgKatana{
+    background-color: #252525;
+    height: 100vh;
+    background-image: url(../assets/img/KatanaHome.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .bgKatana{
+        background-color: #252525;
+        height: 100vh;
+        background-image: url(../assets/img/katanamobile.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+
+.carrousel{
+    height: 300px;
+}
+
+.pink{
+    color: #FF1FA5;
 }
