@@ -42,23 +42,6 @@ footer{
     background-size: cover;
 }
 
-.bgKatana{
-    background-color: #252525;
-    height: 100vh;
-    background-image: url(../assets/img/KatanaHome.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-@media (max-width: 768px) {
-    .bgKatana{
-        background-color: #252525;
-        height: 100vh;
-        background-image: url(../assets/img/katanamobile.svg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-}
 
 
 .carrousel{
@@ -68,3 +51,77 @@ footer{
 .pink{
     color: #FF1FA5;
 }
+
+.customCarousel{
+    height: 90vh;
+}
+
+.bgPawsHero{
+    background-image: url(../assets/img/PawsHero.svg);
+    background-size: cover;
+    height: 94vh;
+    background-position: center;
+}
+
+.bgSubeHero{
+    background-image: url(../assets/img/SubeHero.svg);
+    background-size: cover;
+    height: 94vh;
+    background-position: center;
+}
+
+.bgKatana{
+    background-color: #252525;
+    height: 100vh;
+    background-image: url(../assets/img/KatanaHome.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bgArtworkHero{
+    background-image: url(../assets/img/ArtworkHero.svg);
+    background-size: cover;
+    height: 94vh;
+    background-position: center;
+}
+
+
+
+@media (max-width: 768px) {
+    .bgKatana{
+        background-color: #252525;
+        height: 100vh;
+        background-image: url(../assets/img/katanamobile.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bgPawsHero{
+        background-image: url(../assets/img/PawsMobile.svg);
+        background-size: cover;
+        height: 94vh;
+        background-position: center;
+    }
+    
+    .bgSubeHero{
+        background-image: url(../assets/img/Slide\ 16_9\ -\ 1.svg);
+        background-size: cover;
+        height: 94vh;
+        background-position: center;
+    }
+    .bgArtworkHero{
+        background-image: url(../assets/img/ArtworkMobile.svg);
+        background-size: cover;
+        height: 94vh;
+        background-position: center;
+    }
+}
+button{
+    color: white;
+    background-color: #FF1FA5;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 2px 20px 2px 20px;
+}
+
