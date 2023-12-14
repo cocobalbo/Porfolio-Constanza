@@ -1,0 +1,60 @@
+.bgPawsHero{
+    background-image: url(../assets/img/PawsHero.svg);
+    background-size: cover;
+    height: 94vh;
+    background-position: center;
+}
+
+.bgSubeHero{
+    background-image: url(../assets/img/SubeHero.svg);
+    background-size: cover;
+    height: 94vh;
+    background-position: center;
+}
+
+.bgKatana{
+    background-color: #252525;
+    height: 100vh;
+    background-image: url(../assets/img/KatanaHome.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bgArtworkHero{
+    background-image: url(../assets/img/ArtworkHero.svg);
+    background-size: cover;
+    height: 94vh;
+    background-position: center;
+}
+
+
+
+@media (max-width: 768px) {
+    .bgKatana{
+        background-color: #252525;
+        height: 100vh;
+        background-image: url(../assets/img/katanamobile.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bgPawsHero{
+        background-image: url(../assets/img/PawsMobile.svg);
+        background-size: cover;
+        height: 94vh;
+        background-position: center;
+    }
+    
+    .bgSubeHero{
+        background-image: url(../assets/img/Slide\ 16_9\ -\ 1.svg);
+        background-size: cover;
+        height: 94vh;
+        background-position: center;
+    }
+    .bgArtworkHero{
+        background-image: url(../assets/img/ArtworkMobile.svg);
+        background-size: cover;
+        height: 94vh;
+        background-position: center;
+    }
+}
+
