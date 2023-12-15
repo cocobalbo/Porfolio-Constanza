@@ -4,7 +4,7 @@
 
 a {
   text-decoration: none;
-  color: black;
+  color: #2a2828;
 }
 
 a:hover {
@@ -33,120 +33,77 @@ img {
   font-family: "Bebas Neue", sans-serif;
 }
 
-.bi-list {
-  font-size: 32px;
-  color: #e6e2df;
-}
-
-.bi-bag-heart {
-  font-size: 28.8px;
-  padding-left: 35.2px;
-}
-
-.nav__bag {
-  color: #e6e2df;
-}
-.nav__bag:hover {
-  color: #ff3399;
-}
-.nav__img {
-  height: 64px;
-  width: 64px;
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-
-.navbar {
-  --bs-navbar-padding-y: 8px;
-  background-color: #2a2828;
-}
-
-.border-bottom {
-  --bs-border-color:#c097ea;
-  --bs-border-width:3px;
-}
-
-.navbar-toggler {
-  border: none;
-}
-
-.nav-link {
-  --bs-nav-link-color: #e6e2df;
-  --bs-navbar-active-color:#c097ea;
-}
-.nav-link:hover {
-  color: #ff3399;
-}
-
-.active {
-  border-bottom: 1px solid #cc99ff;
-}
-
 footer {
   text-align: center;
   background-color: #252525;
   color: white;
 }
 
-.bgPawsHero {
-  background-image: url(../assets/img/PawsHero.svg);
+.bgKatana, .bgArtworkHero, .bgSubeHero, .bgPawsHero {
   background-size: cover;
   height: 94vh;
   background-position: center;
-}
-
-.bgSubeHero {
-  background-image: url(../assets/img/SubeHero.svg);
-  background-size: cover;
-  height: 94vh;
-  background-position: center;
-}
-
-.bgKatana {
-  background-color: #252525;
-  height: 100vh;
-  background-image: url(../assets/img/KatanaHome.svg);
-  background-size: contain;
   background-repeat: no-repeat;
 }
 
-.bgArtworkHero {
-  background-image: url(../assets/img/ArtworkHero.svg);
-  background-size: cover;
-  height: 94vh;
-  background-position: center;
+.bgPawsHero {
+  background-image: url(../assets/img/PawsCarrouselSM.svg);
+}
+@media (aspect-ratio: 4/3) {
+  .bgPawsHero {
+    background-image: url(../assets/img/Sube.svg);
+  }
+}
+@media (aspect-ratio: 3/4) {
+  .bgPawsHero {
+    background-image: url(../assets/img/ArtworkCarrouselSM.svg);
+  }
+}
+@media (min-width: 1200px) {
+  .bgPawsHero {
+    background-image: url(../assets/img/PawsCarrouselLG.svg);
+  }
+}
+@media (min-width: 1200px) and (aspect-ratio: 4/3) {
+  .bgPawsHero {
+    background-image: url(../assets/img/Prueba.png);
+  }
+}
+@media (min-width: 1200px) and (aspect-ratio: 3/4) {
+  .bgPawsHero {
+    background-image: url(../assets/img/Prueba.png);
+  }
 }
 
-@media (max-width: 768px) {
-  .bgKatana {
-    background-color: #252525;
-    height: 100vh;
-    background-image: url(../assets/img/katanamobile.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .bgPawsHero {
-    background-image: url(../assets/img/PawsMobile.svg);
-    background-size: cover;
-    height: 94vh;
-    background-position: center;
-  }
+.bgSubeHero {
+  background-image: url(../assets/img/SubeCarrouselSM.svg);
+}
+@media (min-width: 1200px) {
   .bgSubeHero {
-    background-image: url(../assets/img/Slide\ 16_9\ -\ 1.svg);
-    background-size: cover;
-    height: 94vh;
-    background-position: center;
-  }
-  .bgArtworkHero {
-    background-image: url(../assets/img/ArtworkMobile.svg);
-    background-size: cover;
-    height: 94vh;
-    background-position: center;
+    background-image: url(../assets/img/SubeCarrouselLG.svg);
   }
 }
+
+.bgArtworkHero {
+  background-image: url(../assets/img/ArtworkCarrouselSM.svg);
+}
+@media (min-width: 1200px) {
+  .bgArtworkHero {
+    background-image: url(../assets/img/ArtworkCarrouselLG.svg);
+  }
+}
+
+.bgKatana {
+  background-image: url(../assets/img/KatanaHomeSM.svg);
+}
+@media (min-width: 1200px) {
+  .bgKatana {
+    background-image: url(../assets/img/KatanaHomeLG.svg);
+  }
+}
+
 button {
-  color: white;
+  color: #FAFAFA;
   background-color: #FF1FA5;
   border: none;
   border-radius: 10px;
@@ -155,99 +112,22 @@ button {
   padding: 2px 20px 2px 20px;
 }
 
-.tarjeta {
-  width: 320px;
-  height: 520px;
-}
-.tarjeta__index {
-  height: 146px;
-  padding: 10px;
-}
-.tarjeta__img {
-  width: 100%;
-  height: 300px;
-}
-.tarjeta__title {
-  text-align: center;
-  font-size: 1.5rem;
-}
-.tarjeta__tipo {
-  margin-bottom: 10px;
-}
-.tarjeta__tipo a {
-  padding: 5px;
-  margin: 7px;
-  border: 1px solid #2a2828;
-  color: #2a2828;
-}
-.tarjeta__tipo a:hover {
-  background-color: #2a2828;
-  color: #ff3399;
+.pawsColor {
+  color: #9933FF;
 }
 
-.carrito__info {
-  width: 180px;
-  height: 100%;
-}
-.carrito__info h3 {
-  font-size: 1.2rem;
-}
-.carrito__info p {
-  font-size: 0.8rem;
+.iframePaws {
+  height: 628px;
+  border: solid 1px #2a2828;
 }
 
-.carrito__tarjeta {
-  width: 370px;
-  height: 200px;
-}
-.carrito__tarjeta img {
-  height: 90%;
-  width: 180px;
+.iframeSube {
+  height: 700px;
+  border: solid 1px #2a2828;
 }
 
-.strong {
-  color: #ff3399;
-}
-
-.temporal {
-  height: 50vh;
-}
-
-.precioIndex {
-  margin-top: 10px;
-  height: 20%;
-  font-size: 1rem;
-  font-family: "poppins", Courier, monospace;
-  color: #ff3399;
-}
-
-.descripcion {
-  height: 20px;
-  width: 80%;
-  color: gray;
-  font-family: "Poppins", Courier, monospace;
-  font-size: 0.9rem;
-  font-style: italic;
-}
-
-.total {
-  width: 300px;
-}
-.total h2 {
-  font-size: 1rem;
-}
-.total button {
-  font-family: "Poppins", Courier, monospace;
-  font-size: 0.8rem;
-}
-
-.poppins {
-  font-family: "Poppins", Courier, monospace;
-}
-
-.precio {
-  color: #ff3399;
-  font-size: 1.5rem;
+.subeColor {
+  color: #009CE5;
 }
 
 .customCarousel {
