@@ -8,3 +8,23 @@ button{
     padding: 2px 20px 2px 20px;
 }
 
+%btn{
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 2px 20px 2px 20px;
+}
+
+.btnPink{
+    @extend %btn;
+    color: $color-white;
+    background-color: $color-acento;
+}
+
+.btnGray{
+    @extend %btn;
+    color: $color-white;
+    background-color: gray;
+}
+

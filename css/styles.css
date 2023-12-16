@@ -112,6 +112,24 @@ button {
   padding: 2px 20px 2px 20px;
 }
 
+.btnGray, .btnPink {
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 2px 20px 2px 20px;
+}
+
+.btnPink {
+  color: #FAFAFA;
+  background-color: #FF1FA5;
+}
+
+.btnGray {
+  color: #FAFAFA;
+  background-color: gray;
+}
+
 .pawsColor {
   color: #9933FF;
 }
@@ -119,6 +137,32 @@ button {
 .iframePaws {
   height: 628px;
   border: solid 1px #2a2828;
+}
+
+.contact {
+  padding: 100px 0px 50px 0px;
+}
+
+.form__estilos {
+  border-bottom: 2px solid #2b2b2b;
+}
+.form__estilos input {
+  border: none;
+  background: transparent;
+}
+.form__estilos input:focus {
+  outline: none;
+}
+.form__estilos textarea {
+  border: none;
+  background: transparent;
+}
+.form__estilos textarea:focus {
+  outline: none;
+}
+
+.bgContact {
+  background-color: #FAFAFA;
 }
 
 .iframeSube {

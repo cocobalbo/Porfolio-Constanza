@@ -1,2 +1,31 @@
 //Seccion Contacto/contact
 
+.contact{
+    padding: 100px 0px 50px 0px;
+}
+
+.form{
+    
+    &__estilos{
+        border-bottom: 2px solid #2b2b2b;
+        & input{
+            border: none;
+            background: transparent;
+            &:focus{
+                outline: none;
+            }
+        }
+        & textarea{
+            border: none;
+            background: transparent;
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+}
+
+.bgContact{
+    background-color: $color-white;
+
+}
