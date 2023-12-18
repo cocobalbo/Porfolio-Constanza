@@ -8,24 +8,18 @@
 .bgPawsHero{
     @extend %bg;
 
-    background-image: url(../assets/img/PawsCarrouselSM.svg);
-    
-        @include aspect-ratio-v{
-            background-image: url(../assets/img/Sube.svg);
-        }
-        @include aspect-ratio-h{
-            background-image: url(../assets/img/ArtworkCarrouselSM.svg);
-        }
-        
+    background-image: url(../assets/img/PawsCarrouselSM.svg); 
     @include media-xl{
-        background-image: url(../assets/img/PawsCarrouselLG.svg);
+        background-image: url(../assets/img/10PAWS.svg);
+    }
+}
 
-        @include aspect-ratio-v{
-            background-image: url(../assets/img/Prueba.png);
-        }
-        @include aspect-ratio-h{
-            background-image: url(../assets/img/Prueba.png);
-        }
+.bgWhimsy{
+    @extend %bg;
+
+    background-image: url(../assets/img/hero-sm.png); 
+    @include media-xl{
+        background-image: url(../assets/img/hero-lg.png);
     }
 }
 
@@ -33,7 +27,7 @@
     @extend %bg;
     background-image: url(../assets/img/SubeCarrouselSM.svg);
     @include media-xl{
-        background-image: url(../assets/img/SubeCarrouselLG.svg);
+        background-image: url(../assets/img/12SUBE.svg);
     }
 }
 

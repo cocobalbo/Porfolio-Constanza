@@ -39,7 +39,7 @@ footer {
   color: white;
 }
 
-.bgKatana, .bgArtworkHero, .bgSubeHero, .bgPawsHero {
+.bgKatana, .bgArtworkHero, .bgSubeHero, .bgWhimsy, .bgPawsHero {
   background-size: cover;
   height: 94vh;
   background-position: center;
@@ -49,45 +49,34 @@ footer {
 .bgPawsHero {
   background-image: url(../assets/img/PawsCarrouselSM.svg);
 }
-@media (aspect-ratio: 4/3) {
+@media (min-width: 992px) {
   .bgPawsHero {
-    background-image: url(../assets/img/Sube.svg);
+    background-image: url(../assets/img/10PAWS.svg);
   }
 }
-@media (aspect-ratio: 3/4) {
-  .bgPawsHero {
-    background-image: url(../assets/img/ArtworkCarrouselSM.svg);
-  }
+
+.bgWhimsy {
+  background-image: url(../assets/img/hero-sm.png);
 }
-@media (min-width: 1200px) {
-  .bgPawsHero {
-    background-image: url(../assets/img/PawsCarrouselLG.svg);
-  }
-}
-@media (min-width: 1200px) and (aspect-ratio: 4/3) {
-  .bgPawsHero {
-    background-image: url(../assets/img/Prueba.png);
-  }
-}
-@media (min-width: 1200px) and (aspect-ratio: 3/4) {
-  .bgPawsHero {
-    background-image: url(../assets/img/Prueba.png);
+@media (min-width: 992px) {
+  .bgWhimsy {
+    background-image: url(../assets/img/hero-lg.png);
   }
 }
 
 .bgSubeHero {
   background-image: url(../assets/img/SubeCarrouselSM.svg);
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .bgSubeHero {
-    background-image: url(../assets/img/SubeCarrouselLG.svg);
+    background-image: url(../assets/img/12SUBE.svg);
   }
 }
 
 .bgArtworkHero {
   background-image: url(../assets/img/ArtworkCarrouselSM.svg);
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .bgArtworkHero {
     background-image: url(../assets/img/ArtworkCarrouselLG.svg);
   }
@@ -96,7 +85,7 @@ footer {
 .bgKatana {
   background-image: url(../assets/img/KatanaHomeSM.svg);
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .bgKatana {
     background-image: url(../assets/img/KatanaHomeLG.svg);
   }
